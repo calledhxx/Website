@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:"UD Digi Kyokasho N-B";
+}
+
+body{
+
+    padding: 0 !important;
+    margin:0 !important;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #221c32, #191525);;
+}
+
+#A {
+    width : 600px;
+    height: auto;
+    margin-top : 69px;
+
+}
+
+#NotMyHead{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid rgb(229, 211, 253);
+    margin-right:30px;
+    box-shadow: 0 0 10px black;
+}
+
+a{
+    color: rgb(196, 196, 196);
+    padding: 10px;
+    text-shadow: black 0.1em 0.1em 1em
+
+}
+
+a::before{
+    content : "$"
+
+}
+
+label{
+    color: rgb(201, 201, 201);
+    font-size:0.8em;
+    text-shadow: black 0.1em 0.1em 1em
+}
+.notFullButFull{
+    width:100%;
+    background-color:black;
+    height:50px;
+    padding:10px !important;
+}
+
+#top{
+    height:50px;
+    background-color: #ac9aff;
+    border-top-left-radius:18px;
+    border-top-right-radius:18px;
+    display:flex;
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+}
+#meddle{
+    height:auto;
+    background-color: #28213e;
+    box-shadow: 0 0 10px black;
+}
+.MedBox{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+#MedBox-Head{
+    padding:90px !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#Head-title{
+    font-size:2em;
+
+}
+#bottom{
+    height:100px;
+    background-color: #1b1433;
+    display:flex;
+
+
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+}
+
+#foot{
+    height:10px;
+    background-color: #120b22;
+    display:flex;
+
+    border-bottom-left-radius:18px;
+    border-bottom-right-radius:18px;
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+}
+
+
+
+.bottom-flemBox{
+    display: grid;
+    margin:10px;
+    padding: 20px;
+}
+
+#name{
+    font-size:3em;
+    color: rgb(231, 213, 255);
+    text-shadow: black 0.1em 0.1em 1em
+}
