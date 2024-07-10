@@ -4,7 +4,9 @@
     font-family:"UD Digi Kyokasho N-B";
 }
 
-body{
+#FULL{
+    width: 100%;
+    height: 100%;
 
     padding: 0 !important;
     margin:0 !important;
@@ -12,6 +14,11 @@ body{
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, #221c32, #191525);;
+}
+
+body{
+
+
 }
 
 
