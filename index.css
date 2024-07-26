@@ -4,29 +4,138 @@
     font-family:"UD Digi Kyokasho N-B";
 }
 
+
 body{
-    display: grid;
+
+    background: linear-gradient(180deg, #221c32, #191525);
 
 }
 
-#FULL{
+@keyframes shiny {
+    0%   {
+        color: rgb(196, 196, 196);
+    }
+    25% { color: rgb(196, 196, 196);}
+    50%   {  color:white}
+    75%   {  color:honeydew}
+    100%   {  color: rgb(196, 196, 196);}
+}
+
+@keyframes sh {
+    0%   {
+        color: #8f7bc6;
+    }
+    25% { color: rgb(198, 188, 255);}
+    50%   {  color:  #8f7bc6
+    }
+    75%   {  color:  #8f7bc6
+    }
+    100%   {  color: #8f7bc6}
+}
+
+@keyframes rot {
+    0%   {
+        Transform:rotate(.3deg);
+    }
+    25% { Transform:rotate(0deg);}
+    50%   {  Transform:rotate(-.3deg);}
+    75%   {  Transform:rotate(0deg);}
+    100%   {  Transform:rotate(.3deg);}
+}
+
+*::selection{
+    color  : #8f7bc6;
+    background-color: #4d3c9f;
+}
+
+
+#Page1{
     width : 100% ;
-    height: 100%;
+    height: auto;
 
 
     padding: 0 !important;
     margin:0 !important;
     display: flex;
     justify-content: center;
-    background: linear-gradient(180deg, #221c32, #191525);
 
 }
+
+#Page2{
+    width : 100% ;
+    height: auto;
+    display: grid;
+    justify-content: center;
+
+}
+
 
 #A {
     width : 600px;
     height: auto;
     margin-top : 69px;
+    animation: rot 5s infinite ease-in-out;
 
+}
+
+#B{
+
+    justify-content: center;
+    width : 600px;
+    height: auto;
+    margin-top : 69px;
+    margin-bottom: 100px;
+}
+
+.post{
+    height: auto;
+    width: auto;
+}
+
+
+.PostTitle{
+    width:100%;
+    height:100px;
+    background: linear-gradient(65deg, #2a1847, #2f2048);
+    border-top-left-radius:18px;
+    border-top-right-radius:18px;
+
+    box-shadow: 0 0 10px black;
+
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.PostLine{
+    width:100%;
+    height:30px;
+    background: linear-gradient(80deg, #120b22, #1e1336);
+
+    border-bottom-left-radius:18px;
+    border-bottom-right-radius:18px;
+
+    display:grid;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 10px black;
+
+    margin-bottom: 40px;
+}
+
+.titleTxt{
+    color: #8f7bc6;
+    font-size:.9em;
+    margin: 30px;
+    animation: sh 5s infinite ease-in-out;
+    text-shadow: black 0.1em 0.1em 1em;
+}
+
+.smTxt{
+    color: #c1acde;
+    font-size:.7em;
+    text-shadow: black 0.1em 0.1em 1em;
 }
 
 #NotMyHead{
@@ -41,8 +150,8 @@ body{
 a{
     color: rgb(196, 196, 196);
     padding: 10px;
-    text-shadow: black 0.1em 0.1em 1em
-
+    text-shadow: black 0.1em 0.1em 1em;
+    animation: shiny 5s infinite linear;
 }
 
 a::before{
@@ -59,7 +168,8 @@ label{
     width:100%;
     background-color:black;
     height:50px;
-    padding:10px !important;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
 }
 
 #top{
@@ -113,6 +223,7 @@ label{
     justify-content: center;
     box-shadow: 0 0 10px black;
 }
+
 
 
 

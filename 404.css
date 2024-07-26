@@ -13,12 +13,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, #221c32, #191525);;
+
 }
 
 body{
-
-
+    background: linear-gradient(180deg, #221c32, #191525);;
 }
 
 

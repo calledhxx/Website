@@ -7,20 +7,23 @@ document.addEventListener("DOMContentLoaded", function() {
     const MsgBox = document.createElement("div");
     Div.id = "lit-msg";
     Div.style = ""
-        +"background : linear-gradient(180deg,  #191525, #16092C);"
-        +"width : 100% !important; "
-        +"height : 100% !important;"
+        +"Position: fixed;"
+        +"width : 430px !important; "
+        +"height : 40px !important;"
+        +"right:0;"
+        +"bottom:0;"
 
     MsgBox.id  = "msg-box"
     MsgBox.style = ""
         +"background : linear-gradient(180deg,  black, #16092C);"
+
         +"width : 430px !important;"
         +"height : 40px !important;"
         +"position: absolute;"
         +"bottom : 0px;"
         +"right: 0 !important;"
         +"border-top-left-radius : 90px !important;"
-    +"display: flex;\n" +
+        +"display: flex;\n" +
         "    justify-content: center;\n" +
         "    align-items: center;"
     Link.href = "https://fonts.adobe.com/fonts/uddigikyokasho-pro"
