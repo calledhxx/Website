@@ -102,6 +102,9 @@ body{
     border-top-left-radius:18px;
     border-top-right-radius:18px;
 
+    padding-bottom: 20px;
+    padding-top: 20px;
+
     box-shadow: 0 0 10px black;
 
     display:grid;
@@ -130,7 +133,12 @@ body{
 
     color: #8f7bc6;
     font-size:.9em;
-    margin: 30px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
     animation: sh 5s infinite ease-in-out;
     text-shadow: black 0.1em 0.1em 1em;
 }
