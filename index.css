@@ -5,6 +5,8 @@
 }
 
 
+
+
 body{
 
     background: linear-gradient(180deg, #221c32, #191525);
@@ -95,7 +97,7 @@ body{
 
 .PostTitle{
     width:100%;
-    height:100px;
+    height:auto;
     background: linear-gradient(65deg, #2a1847, #2f2048);
     border-top-left-radius:18px;
     border-top-right-radius:18px;
@@ -125,6 +127,7 @@ body{
 }
 
 .titleTxt{
+
     color: #8f7bc6;
     font-size:.9em;
     margin: 30px;
