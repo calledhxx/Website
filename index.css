@@ -75,13 +75,14 @@ body{
 #card{
     width : 650px;
     padding: 25px !important;
+    animation: rot 5s infinite ease-in-out;
 }
 
 #A {
     width : 100%;
     height: auto;
     margin-top : 69px;
-    animation: rot 5s infinite ease-in-out;
+
 
     display:flex;
     align-items: center;
