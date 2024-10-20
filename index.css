@@ -11,7 +11,10 @@ body{
 
     background: linear-gradient(180deg, #221c32, #191525);
 
+
 }
+
+
 
 @keyframes shiny {
     0%   {
@@ -58,40 +61,54 @@ body{
 
     padding: 0 !important;
     margin:0 !important;
-    display: flex;
-    justify-content: center;
+
 
 }
 
 #Page2{
     width : 100% ;
     height: auto;
-    display: grid;
-    justify-content: center;
+
 
 }
 
+#card{
+    width : 650px;
+    padding: 25px !important;
+}
 
 #A {
-    width : 600px;
+    width : 100%;
     height: auto;
     margin-top : 69px;
     animation: rot 5s infinite ease-in-out;
 
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #B{
 
-    justify-content: center;
-    width : 600px;
+
+    width : 100%;
     height: auto;
     margin-top : 69px;
     margin-bottom: 100px;
+
 }
 
 .post{
     height: auto;
-    width: auto;
+    width: 650px;
+}
+
+.postCase{
+    width: 100%;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -149,14 +166,6 @@ body{
     text-shadow: black 0.1em 0.1em 1em;
 }
 
-#NotMyHead{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    border: 3px solid rgb(229, 211, 253);
-    margin-right:30px;
-    box-shadow: 0 0 10px black;
-}
 
 a{
     color: rgb(196, 196, 196);
@@ -196,14 +205,23 @@ label{
     height:auto;
     background-color: #28213e;
     box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .MedBox{
-    width:100%;
+    padding:10px !important;
+    margin: 10px !important;
+
+    width:60%;
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 #MedBox-Head{
-    padding:90px !important;
+    padding:80px !important;
+
+    width:100%;
 
     display: flex;
     align-items: center;
@@ -214,6 +232,15 @@ label{
     font-size:2em;
 
 }
+#NotMyHead{
+    width: 250px;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid rgb(229, 211, 253);
+    margin-right:30px;
+    box-shadow: 0 0 10px black;
+}
+
 #bottom{
     height:100px;
     background-color: #1b1433;
